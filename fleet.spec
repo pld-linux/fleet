@@ -8,7 +8,6 @@ Source0:	https://github.com/coreos/fleet/archive/v%{version}/%{name}-%{version}.
 # Source0-md5:	7535590f5513d0da0048a0ba5da616ba
 URL:		https://github.com/coreos/fleet/
 BuildRequires:	golang >= 1.2.1-3
-BuildRequires:	systemd-devel
 ExclusiveArch:	%{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
